@@ -42,3 +42,7 @@ export type RootStateType = {
   rates: RatesState
   converter: ConverterState
 }
+
+type CurrencyRatesSorterType = (
+  favoriteRates: string[],
+) => (a: CurrencyRateElementType, b: CurrencyRateElementType) => number

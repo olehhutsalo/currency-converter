@@ -1,9 +1,4 @@
-import { CurrencyRateElementType } from '../modules/api/types'
-
-type CurrencyRatesSorterType = (
-  favoriteRates: string[],
-) => (a: CurrencyRateElementType, b: CurrencyRateElementType) => number
-
+import { CurrencyRateElementType, CurrencyRatesSorterType } from '../../module'
 /**
  * Creates sorter for currency rates, placing favorite currencies on top.
  * Sorts currencies alphabetically.
