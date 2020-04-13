@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components -> <CustomPicker /> renders with selected value on iOS 1`] = `
+<Fragment>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "minWidth": 100,
+            "padding": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginRight": 4,
+            },
+            undefined,
+          ]
+        }
+      >
+        Bar
+      </Text>
+      <Icon
+        allowFontScaling={false}
+        name="down"
+        size={18}
+      />
+    </View>
+  </TouchableOpacity>
+  <Component
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 8,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <Picker
+          mode="dialog"
+          onValueChange={[Function]}
+          selectedValue="bar"
+        >
+          <PickerItem
+            key="item0"
+            label="Foo"
+            value="foo"
+          />
+          <PickerItem
+            key="item1"
+            label="Bar"
+            value="bar"
+          />
+        </Picker>
+        <Button
+          onPress={[Function]}
+          title="Done"
+        />
+      </View>
+    </View>
+  </Component>
+</Fragment>
+`;
+
+exports[`components -> <CustomPicker /> renders without selected value on iOS 1`] = `
+<Fragment>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "minWidth": 100,
+            "padding": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginRight": 4,
+            },
+            undefined,
+          ]
+        }
+      />
+      <Icon
+        allowFontScaling={false}
+        name="down"
+        size={18}
+      />
+    </View>
+  </TouchableOpacity>
+  <Component
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 8,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <Picker
+          mode="dialog"
+          onValueChange={[Function]}
+          selectedValue={null}
+        >
+          <PickerItem
+            key="item0"
+            label="Foo"
+            value="foo"
+          />
+          <PickerItem
+            key="item1"
+            label="Bar"
+            value="bar"
+          />
+        </Picker>
+        <Button
+          onPress={[Function]}
+          title="Done"
+        />
+      </View>
+    </View>
+  </Component>
+</Fragment>
+`;
